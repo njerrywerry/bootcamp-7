@@ -1,3 +1,6 @@
+from person import Person
+from kenyan import Kenyan
+
 p1 = Person('Joe', 23)
 p2 = Person('Jane', 23)
 p3 = Person('George', 45)
@@ -16,3 +19,10 @@ print b
 
 for peeps in b:
     print peeps.say_hello()
+
+k = Kenyan('Miguna', 23)
+
+# k.probe(True)
+print "Is {} corrupt? {}".format(k.name, k.is_corrupt())
+
+print k.say_hello()
