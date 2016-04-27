@@ -1,18 +1,17 @@
-# a = [12, 45, 3, 5, 7, 13]
-#
-# # for x in a:
-# #     print x
-# #     pass
-#
-# # print in reverse
-# i = len(a)
-# while i > 0:
-#     print a[i - 1]
-#     i -= 1
-#
-# for x in range(len(a) - 1, -1, -1):
-#     print a[x]
-#
+a = [12, 45, 3, 5, 7, 13]
+
+for x in a:
+    print x
+
+# print in reverse
+i = len(a)
+while i > 0:
+    print a[i - 1]
+    i -= 1
+
+for x in range(len(a) - 1, -1, -1):
+    print a[x]
+
 b = [(2, 4), (5, 10), (6, 20), (50, 50)]
 # print output as e.g x: 2, y: 4
 
